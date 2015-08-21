@@ -1,7 +1,7 @@
 FROM diogogmt/ubuntu:14.04.03
 
 ENV NODE_HOME /usr/local/node
-ENV NODE_VERSION 0.10.38
+ENV NODE_VERSION 0.12.7
 
 ENV NPM_HOME /usr/local/npm
 RUN mkdir $NPM_HOME
